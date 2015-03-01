@@ -35,14 +35,35 @@
 <div id="main_content_wrap" class="outer">
 	<section id="main_content" class="inner">
 		{{ content }}
+<p>POSTS 1</p>
 	</section>
+<p>POSTS 2</p>
+</div>
+<div>
+<ul>
+<p>POSTS</p>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul
+
 </div>
 
 <!-- FOOTER  -->
 <div id="footer_wrap" class="outer">
 	<footer class="inner">
 		<p>Published with <a href="http://pages.github.com">GitHub Pages</a> and <a href="http://jekyllbootstrap.com/">Jekyll</a></p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
 	</footer>
+<p>POSTS</p>
 </div>
 
 <script>
