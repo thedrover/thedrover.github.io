@@ -1,0 +1,14 @@
+---
+layout: post
+title: Upgrade paths
+---
+
+Ease the upgrade path for host application developers.
+
+Backwards compatbility. reference java. find a bad example.
+
+Document clearly.
+
+Present new features as optional extras.
+
+Internalise helpful support withing existing APIs. e.g. add seamless configuration checks.
