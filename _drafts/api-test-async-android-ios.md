@@ -3,6 +3,9 @@ layout: post
 title: Async Api Integration Testing for Mobile Clients - Android edition
 ---
 
+http://tools.android.com/tech-docs/unit-testing-support
+Build variants and version is key: http://learningtofit.blogspot.com.au/2015/02/android-testing-gradle-android-studio.html?view=classic
+
 Document api asyn api test methods for ios and android....two posts perhaps?
 
 Provide code download example...
