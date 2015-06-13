@@ -1,9 +1,10 @@
 ---
 layout: page
-title: About Pixyll
+title: About
 permalink: /about/
 ---
 
+<!--
 This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
 ([@4lpine](https://twitter.com/4lpine)).
 
@@ -17,3 +18,4 @@ Thanks to the following:
 * [Jekyll](http://jekyllrb.com)
 * [Refills](http://refills.bourbon.io/)
 * [Solarized](http://ethanschoonover.com/solarized)
+-->
