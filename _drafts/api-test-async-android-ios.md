@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Async Api Integration Testing for Mobile Clients - Android edition
+title: Async Api Integration Testing for Mobile Clients - Android edition 
 ---
 
 http://tools.android.com/tech-docs/unit-testing-support
