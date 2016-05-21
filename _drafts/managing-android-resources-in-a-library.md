@@ -5,12 +5,14 @@ summary: Some simple tips to make your library project resources easy to use
 categories: android sdk library
 ---
 
-No matter what platform is used, it is important to make a library or SDK as easy to use as possible for developers who are integrating the SDK.
+No matter what platform is used, it is important to make a library or
+SDK as easy to use as possible for developers who are integrating the
+SDK.
 
 One simple trick is to use the Android tools to 
 
 
-[xxx](https://www.youtube.com/watch?v=Y2GC6P5hPeA)
+[Android Videos](https://www.youtube.com/watch?v=Y2GC6P5hPeA)
 
 ## Consistent Resource Prefix
 
@@ -53,4 +55,9 @@ generated source. use lint.xml
 
 ## Hide Internal Resources
 
- 1. Declare public reources. `public.xml`. Warnings if not used....
+ 1. Declare [public reources](http://developer.android.com/tools/studio/studio-features.html#private-res). `public.xml`. Warnings if not used....
+
+
+http://developer.android.com/tools/studio/studio-features.html#private-res
+
+An app treats all Android library resources as public unless you explicitly declare at least one resource in the library as public. Declaring one public resource causes your app to treat all other, undeclared resources in the library as private.
