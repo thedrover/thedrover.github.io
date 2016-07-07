@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Multi-module Unit Test Support with Gradle
-date:       2016-07-06
 categories: Android Gradle testing
 ---
 
